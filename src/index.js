@@ -168,7 +168,8 @@ export class Map extends React.Component {
           disableDoubleClickZoom: this.props.disableDoubleClickZoom,
           noClear: this.props.noClear,
           styles: this.props.styles,
-          gestureHandling: this.props.gestureHandling
+          gestureHandling: this.props.gestureHandling,
+          controlSize: this.props.controlSize,
         }
       );
 
